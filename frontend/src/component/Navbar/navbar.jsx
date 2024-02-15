@@ -4,7 +4,8 @@ import Logo from "../../assests/testlogo.png"
 
 const Navbar = ()=> {
     return(
-        <div className="navbar">
+        <section>
+            <div className="navbar">
             <div className="main-container">
                 <div className="nav-main">
                     <div className="nav-left">
@@ -34,8 +35,21 @@ const Navbar = ()=> {
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
+        <div className="mobo">
+                <div className="mobo-left">
+                    <p className="menu-icon">&#9776;</p>
+                </div>
+                <div className="mobo-right">
+                    <ul className="nav-links">
+                        <li className="link">Log in</li>
+                        <li className="link">Sign Up</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
     )
 }
 export default Navbar;

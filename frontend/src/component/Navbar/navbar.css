@@ -49,3 +49,23 @@
     border-radius: 2rem;
     cursor: pointer;
 }
+.mobo{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(221, 220, 220);
+    height: 3rem;
+    align-items: center;
+    padding: 0 2rem;
+}
+.mobo ul{
+    gap: 2rem;
+}
+.mobo li{
+    list-style: none;
+}
+@media screen and (max-width:900px) {
+    .main-container{
+        display: none;
+    }
+
+}
