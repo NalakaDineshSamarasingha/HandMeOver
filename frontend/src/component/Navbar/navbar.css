@@ -1,0 +1,51 @@
+.navbar{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-container{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(221, 220, 220);
+}
+.nav-main{
+    width: 100vw;
+    display: flex;
+    padding: 2rem 4rem;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+
+}
+.navbar li{
+    list-style-type: none;
+    cursor: pointer;
+}
+.navbar ul{
+    gap: 2rem;
+}
+.secoundary-container{
+    background: rgb(13, 13, 53);
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+.nav-secoundary .nav-main{
+    padding: 1rem 2rem;
+}
+.nav-secoundary img{
+    cursor: pointer;
+}
+.nav-secoundary .donate-btn{
+    color: white;
+    text-align: center;
+    padding: 0.5rem 3rem;
+    background: rgb(32, 32, 172);
+    border-radius: 2rem;
+    cursor: pointer;
+}
