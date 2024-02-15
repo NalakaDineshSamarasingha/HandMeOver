@@ -17,6 +17,7 @@
     display: flex;
     padding: 2rem 4rem;
     justify-content: space-between;
+    align-items: center;
 }
 .nav-links{
     display: flex;
@@ -50,22 +51,20 @@
     cursor: pointer;
 }
 .mobo{
-    display: flex;
-    justify-content: space-between;
-    background: rgb(221, 220, 220);
-    height: 3rem;
-    align-items: center;
-    padding: 0 2rem;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
 }
-.mobo ul{
-    gap: 2rem;
-}
-.mobo li{
-    list-style: none;
-}
+
 @media screen and (max-width:900px) {
     .main-container{
         display: none;
     }
-
+    .mobo{
+        display: flex;
+    }
+    .btn{
+        display: none;
+    }
 }
