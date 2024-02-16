@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './navbar.css';
-import Logo from "../../assests/testlogo.png"
+import Logo from "../../assests/logo.png"
 
 const Navbar = ()=> {
     const [showMenu,setShowMenu] = useState(false);

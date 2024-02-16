@@ -10,7 +10,7 @@
     height: 4rem;
     display: flex;
     align-items: center;
-    background-color: rgb(221, 220, 220);
+    background-color: #DFDFE5;
 }
 .nav-main{
     width: 100vw;
@@ -31,7 +31,7 @@
     gap: 2rem;
 }
 .secoundary-container{
-    background: rgb(13, 13, 53);
+    background: #010027;
     height: 5rem;
     display: flex;
     align-items: center;
@@ -46,10 +46,11 @@
     color: white;
     text-align: center;
     padding: 0.5rem 3rem;
-    background: rgb(32, 32, 172);
+    background: #01167C;
     border-radius: 2rem;
     cursor: pointer;
 }
+
 .mobo{
     color: white;
     font-size: 2rem;
@@ -62,22 +63,23 @@
     gap: 3rem;
 }
 .category{
-    color: rgba(221, 220, 220,0.8);
+    color: #D9D9D9;
     cursor: pointer;
 }
 .mobo-nav-links{
+    position: absolute;
+    width: 100vw;
     display: none;
     height: calc(100vh - 5rem);
     background-color: rgba(0,0,0,0.8);
     animation-duration: 0.5s;
+    z-index: 1;
 }
 .slide-in{
     display: flex;
     animation-name: slideIn;
 }
-.slide-out{
-    animation-name: slideOut;
-}
+
 .mobo-nav-links ul li{
     list-style: none;
 }
@@ -94,12 +96,12 @@ li{
     padding-bottom: 6px;
 }
 li:hover{
-    color: rgb(32, 32, 172);
-    border-bottom: 2px solid rgb(32, 32, 172);
+    color: yellow;
+    border-bottom: 2px solid yellow;
 }
 .donate{
     position: absolute;
-    bottom: 15rem;
+    bottom: 2rem;
     padding: 1rem 3rem;
     background-color: rgb(13, 13, 53);
     border-radius: 2rem;
