@@ -5,7 +5,7 @@ import Logo from "../../assests/logo.png"
 const Navbar = ()=> {
     const [showMenu,setShowMenu] = useState(false);
     return(
-        <section>
+        <section className="nav">
             <div className="navbar">
             <div className="main-container">
                 <div className="nav-main">
