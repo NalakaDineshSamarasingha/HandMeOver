@@ -1,7 +1,8 @@
 .intro-section{
-    width: 100vw;
+    max-width: 100vw;
     background: #E4E4E5;
     height: calc(100vh - 9rem);
+    overflow: hidden;
 }
 .intro{
     margin: 0;

@@ -1,0 +1,53 @@
+.homeSign{
+    max-width: 100vw;
+    height: calc(100vh - 9rem);
+    min-height: calc(100vh - 9rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(
+        to bottom,
+        #E4E4E5 0%,
+        #E4E4E5 50%,
+        #E8EBF9 50%,
+        #E8EBF9 100%
+
+    );
+}
+.home-sign-up{
+    width: fit-content;
+    height: fit-content;
+    padding: 3rem 6rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background: #D9DDEF;
+    border: 1px solid #010027;
+}
+.home-sign-up p{
+    font-size: 2rem;
+    text-align: center;
+    color: #01167C;
+    font-weight: bold;
+}
+.home-sign-up button{
+    background: #01167C;
+    color: white;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+}
+@media screen and (max-width:900px){
+    .home-sign-up{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 4rem;
+    }
+}
