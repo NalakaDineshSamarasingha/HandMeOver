@@ -1,6 +1,8 @@
 .header{
     height: calc(100vh - 9rem);
     background-image: url('../../assests/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;

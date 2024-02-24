@@ -3,6 +3,9 @@
     background: #E4E4E5;
     height: calc(100vh - 9rem);
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .intro{
     margin: 0;
@@ -16,15 +19,21 @@
 }
 .component{
     width: 20vw;
+    height: 60vh;
+    min-height: fit-content;
     max-height: fit-content;
     background: #D9D9D9;
     border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10vh;
 }
 .component img{
     width: 20vw;
 }
 .component p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 0.5rem 1rem;
     text-align: center;
     position: relative;
