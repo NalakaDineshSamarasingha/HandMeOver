@@ -101,10 +101,7 @@
 li{
     padding-bottom: 6px;
 }
-li:hover{
-    color: yellow;
-    border-bottom: 2px solid yellow;
-}
+
 .donate{
     position: absolute;
     bottom: 2rem;
