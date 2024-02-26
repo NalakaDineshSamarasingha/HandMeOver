@@ -2,6 +2,7 @@ import React from "react";
 import './header.css';
 import Search from '../../assests/search.png'
 
+
 const Header = ()=>{
     return(
         <div className="header">

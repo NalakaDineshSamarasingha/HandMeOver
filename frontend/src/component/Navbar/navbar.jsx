@@ -4,8 +4,9 @@ import Logo from "../../assests/logo.png"
 
 const Navbar = ()=> {
     const [showMenu,setShowMenu] = useState(false);
+    const [isActive, setIsActive] = useState(false);
     return(
-        <section className="nav">
+        <section className="nav" >
             <div className="navbar">
             <div className="main-container">
                 <div className="nav-main">
@@ -30,7 +31,24 @@ const Navbar = ()=> {
                     <div className="nav-main">
                         <div className="logo">
                             <img src={Logo} alt="Logo" style={{width:"50px"}} />
-                            <p className="category">Category</p>
+                            <div className="dropdown">
+                                <p className="category" onClick={(e)=>{setIsActive(!isActive)}}>Category</p>
+                                <ul className="dropdownitems" id={isActive?"Display" : "NoDisplay"}>
+                                    <li onClick={(e)=>{setIsActive(!isActive)}}>Electronic Devices</li>
+                                    <li onClick={(e)=>{setIsActive(!isActive)}}>Electronic Accessories</li>
+                                    <li onClick={(e)=>{setIsActive(!isActive)}}>Foods</li>
+                                    <li onClick={(e)=>{setIsActive(!isActive)}}>Health & Beauty</li>
+                                    <li onClick={(e)=>{setIsActive(!isActive)}}>Babies & Toys</li>
+                                    <li onClick={(e)=>{setIsActive(!isActive)}}>Groceries & Pets</li>
+                                    <li onClick={(e)=>{setIsActive(!isActive)}}>Home & Lifestyle</li>
+                                    <li onClick={(e)=>{setIsActive(!isActive)}}>Vehicle</li>
+                                    <li onClick={(e)=>{setIsActive(!isActive)}}>Fasion</li>
+                                    <li onClick={(e)=>{setIsActive(!isActive)}}>Gifts</li>
+                                    <li onClick={(e)=>{setIsActive(!isActive)}}>Sport & Outdoor</li>
+                                    <li onClick={(e)=>{setIsActive(!isActive)}}>Education</li>
+                                </ul>
+                            </div>
+                            
                         </div>
                         <div className="btn">
                             <p className="donate-btn">Donate <br /> now</p>
